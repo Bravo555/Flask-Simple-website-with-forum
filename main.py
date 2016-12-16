@@ -4,7 +4,7 @@ import hashlib
 
 app = Flask(__name__)
 
-app.secret_key = "E5CDD5E9422A8D509A392DB9621097C2DEFF1C1AE90714A78AC84E3EAC072E87"
+app.secret_key = "E5CDD5E9422A8D509A392DB9621097C2DEFF1C1AE90714A78AC84E3EAC072E87" #remember to change it!
 
 app.config['SQLALCHEMY_DATABASE_URI'] = 'sqlite:///users.db'
 app.config['SQLALCHEMY_TRACK_MODIFICATIONS'] = True
